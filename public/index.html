@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Bharti's TODO APP</title>
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+
+<body>
+<h1>My Todos</h1>
+<p><b>Active Todos</b></p>
+<div id="div1"></div>
+<hr>
+
+<p><b>Add Todo</b></p>
+<input type="text" placeholder="TODO title goes here" id="ip1">
+<button id="b1" onclick="PostTodoAjax()">ADD</button>
+<hr>
+
+<p><b>Completed Todos</b></p>
+<button onclick="hideCompleted()" id="b2">HIDE COMPLETED</button>
+<div id="div2"></div>
+<hr>
+
+<p><b>Deleted Todos</b></p>
+<button onclick="hideDeleted()" id="b3">HIDE DELETED</button>
+<div id="div3"></div>
+
+
+<script src="/script.js"></script>
+</body>
+
+</html>

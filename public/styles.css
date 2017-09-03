@@ -1,0 +1,37 @@
+#b2 {
+    color:blue;
+    text-align:right;
+}
+#b3 {
+    color:blue;
+    text-align:right;
+}
+body {
+    text-align: center;
+    font-size: large;
+}
+h1 {
+    color:darkviolet;
+    font-size:xx-large;
+}
+#b1 {
+    background-color: yellow;
+}
+
+#div1 {
+    color: red;
+
+}
+#div2 {
+    color: green;
+}
+#div3 {
+    color: blue;
+}
+.cross {
+    color: red;
+    background-color:ghostwhite;
+}
+#div3{
+    text-decoration : line-through;
+}
